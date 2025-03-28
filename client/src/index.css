@@ -1,0 +1,66 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+}
+
+.navbar {
+  background: linear-gradient(to right, #007bff, #6f42c1);
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.post {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 1rem auto;
+  max-width: 500px;
+}
+
+.post h2 {
+  font-size: 1.25rem;
+  color: #333;
+}
+
+.post p {
+  color: #666;
+}
+
+.post button {
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.post button:hover {
+  text-decoration: underline;
+}
+
+.post input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
